@@ -6,7 +6,8 @@
   "scripts": {
     "generate": "node scripts/generate-empty-rules",
     "test": "node scripts/verify-rules",
-    "lint": "eslint lib scripts"
+    "lint": "eslint lib scripts",
+    "format": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",

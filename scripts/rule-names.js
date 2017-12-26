@@ -1,3 +1,4 @@
+'use strict';
 const eslint = require('eslint');
 
 const entries = [...eslint.linter.getRules().entries()];

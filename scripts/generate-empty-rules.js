@@ -1,5 +1,6 @@
+'use strict';
 const fs = require('fs');
-const ruleNames = require('./ruleNames');
+const ruleNames = require('./rule-names');
 
 const INDENT = 2;
 const OFF = 0;

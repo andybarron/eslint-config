@@ -1,4 +1,5 @@
-const ruleNames = require('./ruleNames');
+'use strict';
+const ruleNames = require('./rule-names');
 const config = require('..').rules;
 
 let ok = true;
