@@ -7,7 +7,8 @@
     "generate": "node scripts/generate-empty-rules",
     "test": "node scripts/verify-rules",
     "lint": "eslint lib scripts",
-    "format": "npm run lint -- --fix"
+    "format": "npm run lint -- --fix",
+    "prepublishOnly": "npm-run-all lint test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/AndyBarron/eslint-config#readme",
   "devDependencies": {
-    "eslint": "4.14.0"
+    "eslint": "4.14.0",
+    "npm-run-all": "4.1.2"
   }
 }
