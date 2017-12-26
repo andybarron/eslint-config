@@ -1,0 +1,31 @@
+{
+  "name": "@andybarron/eslint-config",
+  "version": "1.0.0",
+  "description": "Andy's personal ESLint preferences",
+  "main": "lib/index.js",
+  "scripts": {
+    "generate": "node scripts/generate-empty-rules",
+    "test": "node scripts/verify-rules",
+    "lint": "eslint lib scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyBarron/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "style"
+  ],
+  "author": "Andy Barron <AndrewLBarron@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/AndyBarron/eslint-config/issues"
+  },
+  "homepage": "https://github.com/AndyBarron/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "4.14.0"
+  }
+}
