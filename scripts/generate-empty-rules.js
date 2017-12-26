@@ -5,7 +5,7 @@ const ruleNames = require('./rule-names');
 const INDENT = 2;
 const OFF = 0;
 
-const ruleEntries = ruleNames.map(name => ({ [name]: OFF }));
+const ruleEntries = ruleNames.map((name) => ({ [name]: OFF }));
 const rules = Object.assign(Object.create(null), ...ruleEntries);
 
 const stringified = JSON.stringify(rules, null, INDENT);
