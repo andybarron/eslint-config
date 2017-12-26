@@ -4,8 +4,9 @@ This is a strict and very opinionated ESLint preset for my various JavaScript
 projects.
 
 ## Usage
-Add `@andybarron/eslint-config` to the `extends` section of your ESLint
-configuration file.
+1. `npm i -E -D @andybarron/eslint-config`
+2. Add `@andybarron/eslint-config` to the `extends` section of your ESLint
+   configuration file.
 
 ### Examples
 
