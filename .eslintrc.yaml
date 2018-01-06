@@ -1,3 +1,5 @@
 env:
   node: true
 extends: ./lib/index.js
+parserOptions:
+  ecmaVersion: 2015
